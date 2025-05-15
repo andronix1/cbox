@@ -1,4 +1,4 @@
-# cbox - simple containers in C
+# cbox - simple container runtime in C
 Why? For fun :P
 
 ## Building
@@ -10,7 +10,7 @@ cmake --build . -j4
 ```
 
 ## Running
-In project directory create container environment (docker should be installed)
+In project directory create container environment (docker required)
 ```bash
 ./scripts/busybox_create.sh test
 ```
